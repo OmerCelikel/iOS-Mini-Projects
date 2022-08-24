@@ -14,32 +14,32 @@ class ViewController: UIViewController {
 //    }
     
     override func loadViewIfNeeded() {
-        print("2 -loadViewIfNeeded")
+        print("First page 2 -loadViewIfNeeded")
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("3 -viewDidLoad")
+        print("First page 3 -viewDidLoad")
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        print("4 -viewWillAppear")
+        print("First page 4 -viewWillAppear")
     }
     
     override func viewDidLayoutSubviews() {
-        print("5 -viewDidLayoutSubviews")
+        print("First page 5 -viewDidLayoutSubviews")
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        print("6 -viewDidAppear")
+        print("First page 6 -viewDidAppear")
     }
     
     override func viewWillDisappear(_ animated: Bool) {
-        print("7 -viewWillDisappear")
+        print("First page 7 -viewWillDisappear")
     }
     
     override func viewDidDisappear(_ animated: Bool) {
-        print("8 -viewDidDisappear")
+        print("First page 8 -viewDidDisappear")
     }
     
     

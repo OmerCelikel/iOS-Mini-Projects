@@ -57,10 +57,10 @@
             </objects>
             <point key="canvasLocation" x="944.92753623188412" y="83.705357142857139"/>
         </scene>
-        <!--View Controller-->
+        <!--Second Page View Controller-->
         <scene sceneID="YP4-k1-enR">
             <objects>
-                <viewController id="5nS-oT-sTl" sceneMemberID="viewController">
+                <viewController id="5nS-oT-sTl" customClass="SecondPageViewController" customModule="viewHierarchy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="St1-0e-eSk">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
