@@ -16,6 +16,8 @@ class HomeVC: UIViewController {
     }
     
     @IBAction func logoutUser(_ sender: Any) {
+        UserDefaults.standard.set(false, forKey: "IsUserLoggedIn")
+        self.navigationController?.popToRootViewController(animated: true)
     }
     
 }
