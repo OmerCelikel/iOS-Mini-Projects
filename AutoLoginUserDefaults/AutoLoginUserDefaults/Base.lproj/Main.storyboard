@@ -17,13 +17,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UserDefaults" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a7t-ut-IRy">
-                                <rect key="frame" x="20" y="188" width="374" height="42"/>
+                                <rect key="frame" x="20" y="144" width="374" height="42"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4x8-0K-N8q">
-                                <rect key="frame" x="20" y="290" width="374" height="40"/>
+                                <rect key="frame" x="20" y="246" width="374" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="b63-hm-AUo"/>
                                 </constraints>
@@ -31,15 +31,15 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="DJS-l2-VA7">
-                                <rect key="frame" x="20" y="360" width="374" height="40"/>
+                                <rect key="frame" x="20" y="316" width="374" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="d0G-Cf-GL3"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="haD-ks-cFx">
-                                <rect key="frame" x="20" y="470" width="374" height="50"/>
+                                <rect key="frame" x="20" y="426" width="374" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="jdO-Jt-9pO"/>
                                 </constraints>
@@ -117,10 +117,9 @@
         <!--Navigation Controller-->
         <scene sceneID="Qhv-xm-A8M">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="BIK-Nl-U8q" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="BIK-Nl-U8q" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="5wX-b4-iKl">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
