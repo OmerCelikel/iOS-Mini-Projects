@@ -17,7 +17,7 @@ class SearchBarViewController: UIViewController {
     var searching = false
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        navigationItem.titleView = searchBar
         // Do any additional setup after loading the view.
     }
 
