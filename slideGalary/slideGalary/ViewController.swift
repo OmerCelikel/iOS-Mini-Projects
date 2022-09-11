@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        navigationItem.title = "Ek İş Kaydı"
+        //navigationItem.title = "Ek İş Kaydı"
     }
 
 
@@ -32,6 +32,16 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
             let cell = tableView.dequeueReusableCell(withIdentifier: "viewControllerTableViewCell2") as! ViewControllerTableViewCell
             return cell
         }
+    }
+    
+    // Row Select
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        let storyboard = UIStoryboard(name: "Main", bundle: nil);
+        let additionalWorkOrdersDetailViewController = storyboard.instantiateViewController(withIdentifier: "ekISVC") as! myTaskViewController
+       
+        
+        self.showDetailViewController(additionalWorkOrdersDetailViewController, sender: nil)
     }
 }
 

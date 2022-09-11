@@ -14,6 +14,8 @@
 		F6B3D75728C881AB00498376 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6B3D75528C881AB00498376 /* Main.storyboard */; };
 		F6B3D75928C881AC00498376 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6B3D75828C881AC00498376 /* Assets.xcassets */; };
 		F6B3D75C28C881AC00498376 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6B3D75A28C881AC00498376 /* LaunchScreen.storyboard */; };
+		F6DC2E1E28CB2B2F00E4054A /* AdditionalWorkOrdersDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DC2E1D28CB2B2F00E4054A /* AdditionalWorkOrdersDetailViewController.swift */; };
+		F6DC2E2028CB2E4D00E4054A /* myTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6DC2E1F28CB2E4D00E4054A /* myTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		F6B3D75828C881AC00498376 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6B3D75B28C881AC00498376 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6B3D75D28C881AC00498376 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6DC2E1D28CB2B2F00E4054A /* AdditionalWorkOrdersDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdditionalWorkOrdersDetailViewController.swift; sourceTree = "<group>"; };
+		F6DC2E1F28CB2E4D00E4054A /* myTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				F6B3D75A28C881AC00498376 /* LaunchScreen.storyboard */,
 				F6B3D75D28C881AC00498376 /* Info.plist */,
 				F65B22CF28C8CC6100304C75 /* ViewControllerTableViewCell.swift */,
+				F6DC2E1D28CB2B2F00E4054A /* AdditionalWorkOrdersDetailViewController.swift */,
+				F6DC2E1F28CB2E4D00E4054A /* myTaskViewController.swift */,
 			);
 			path = slideGalary;
 			sourceTree = "<group>";
@@ -142,9 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6B3D75428C881AB00498376 /* ViewController.swift in Sources */,
+				F6DC2E2028CB2E4D00E4054A /* myTaskViewController.swift in Sources */,
 				F6B3D75028C881AB00498376 /* AppDelegate.swift in Sources */,
 				F65B22D028C8CC6100304C75 /* ViewControllerTableViewCell.swift in Sources */,
 				F6B3D75228C881AB00498376 /* SceneDelegate.swift in Sources */,
+				F6DC2E1E28CB2B2F00E4054A /* AdditionalWorkOrdersDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
