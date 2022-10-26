@@ -8,12 +8,25 @@
 import UIKit
 
 class myTaskViewController: UIViewController {
+    @IBOutlet weak var sliderCollectionView: UICollectionView!
+    @IBOutlet weak var pageView: UIPageControl!
+    var imgArr = [
+        UIImage(named:"Angelina Jolie") ,
+        UIImage(named:"Emma Stone") ,
+        UIImage(named:"Jennifer Lawrence") ,
+    ]
+    
+       var timer = Timer()
+       var counter = 0
+       
+       override func viewDidLoad() {
+           super.viewDidLoad()
+           
+       }
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
 
 
-}
+
+   }
+
+

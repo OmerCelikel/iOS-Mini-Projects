@@ -1,0 +1,16 @@
+PODS:
+  - Euromsg (2.6.2)
+
+DEPENDENCIES:
+  - Euromsg
+
+SPEC REPOS:
+  trunk:
+    - Euromsg
+
+SPEC CHECKSUMS:
+  Euromsg: e463a1ee32fce34d4b3e88e83dcde4fe0e870e0e
+
+PODFILE CHECKSUM: 823ed356b55d0a0944f70face476eb8ff332f653
+
+COCOAPODS: 1.11.3
