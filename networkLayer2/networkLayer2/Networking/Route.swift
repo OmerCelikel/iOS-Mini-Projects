@@ -8,8 +8,8 @@
 import Foundation
 
 enum Route {
-    //static let baseUrl = "https://yummie.glitch.me"
-    static let baseUrl = "http://testapi-do-veloper.fw.dteknoloji.com.tr"
+    static let baseUrl = "https://yummie.glitch.me"
+    
     
     //end points
     //case authorizationToken
