@@ -57,7 +57,7 @@ class ViewController: UIViewController {
                     print("\n\n \(data)")
                     ProgressHUD.dismiss()
                 case .failure(let error):
-                    print("failure calisti")
+                    print("failure calisti", error.localizedDescription)
                     //print("The error is \(error.localizedDescription)")
                     //ProgressHUD.showError(error.localizedDescription)
                 }
