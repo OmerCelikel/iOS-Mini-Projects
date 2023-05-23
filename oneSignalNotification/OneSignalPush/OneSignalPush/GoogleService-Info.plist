@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>996288945988-8111jmk9d8u4kqv182q09kss413smu9g.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.996288945988-8111jmk9d8u4kqv182q09kss413smu9g</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAEvonlOxuR5l4eoi0FtDimmiFfzKmXubA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>996288945988</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.omercelikel.OneSignalPush</string>
+	<key>PROJECT_ID</key>
+	<string>notification-a0ba6</string>
+	<key>STORAGE_BUCKET</key>
+	<string>notification-a0ba6.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:996288945988:ios:90df7c02c510ed57d64111</string>
+</dict>
+</plist>
